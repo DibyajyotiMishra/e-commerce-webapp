@@ -37,6 +37,10 @@ var userSchema = new mongoose.Schema(
     purchases: {
       type: Array,
       default: []
+    },
+    image: {
+      type: String,
+      default:"https://images.pexels.com/photos/1793305/pexels-photo-1793305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   },
   { timestamps: true }
